@@ -1,0 +1,241 @@
+/*Importing Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Abel|Quicksand);
+
+@font-face{
+	src: url('fonts/gadugi.ttf');
+	font-family: gadugi;
+}
+
+@font-face{
+	src: url('fonts/steinerlight.ttf');
+	font-family: steiner;
+}
+/*End*/
+
+
+/*Basic Styling*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #D35400;
+}
+/*Basic Styling Ends Here*/
+
+
+/*Header Styles Starts Here*/
+nav#header {
+	width: 100%;
+	background: url('../images/header3.jpg');
+}
+
+nav#header ul {
+	text-align: center;
+}
+	
+nav#header ul li{
+	list-style: none;
+}
+
+nav#header ul li a {
+	text-decoration: none;
+	font-family: gadugi;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+	transition-duration: 2s;
+}
+
+nav#header ul li p {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: steiner;
+    transition-duration: 2s;
+}
+/*Header Styles Ends Here*/
+
+
+/*Navigation Styles Starts Here*/
+nav#navigation {
+	width: 100%;
+	min-height: 60px;
+	background: url('../images/header2.jpg');
+}
+
+nav#navigation ul {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+
+nav#navigation ul li {
+	display: inline;
+	height: 100px;
+	margin-left: 50px;
+}
+
+nav#navigation ul img {
+	right: 0px;
+	position: absolute;
+	margin: 0px;
+	max-width: 30px;
+	max-height: 30px;
+	
+}
+
+nav#navigation ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	border-bottom: 5px solid #34495E;
+	font-size: 30px;
+	font-family: abel;
+	transition-duration: 2s;
+}
+
+nav#navigation ul li a:hover {
+	border-bottom: 7px solid white;
+}
+/*Navigation Ends Here*/
+
+
+
+/*Content Styles Starts Here*/
+div#option {
+	margin-top: 30px;
+	text-align: center;
+}
+
+div#option p {
+	font-family: abel;
+	color: white;
+}
+
+div#option input {
+	width: 19em;
+	min-height: 3em;
+	padding-left: 10px;
+	background-color: #F89406;
+	border: 0px;
+	outline: 0px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+#images {
+	max-width: 60%;
+	margin: 10px;
+	border-radius: 20px;
+	transition-duration: 0.8s;
+    -webkit-box-shadow: 0 0 30px #22A7F0;
+	-moz-box-shadow: 0 0 30px #22A7F0;
+	-ms-box-shadow: 0 0 30px #22A7F0;
+
+}
+
+#images:hover {
+	-webkit-box-shadow: 0 0 40px #D24D57;
+	-moz-box-shadow: 0 0 40px #D24D57;
+	-ms-box-shadow: 0 0 40px #D24D57;
+}
+
+li {
+	display: inline;
+}
+
+div ul#img-group div {
+	text-align: center;
+	background-color: #F2F1EF;
+}
+
+div ul#img-group div h1 {
+	font-size: 30px;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+	color: #049372;
+	font-family: abel;
+}
+
+hr {
+	border-top: 2px solid #95A5A6;
+	margin-top: 10px;
+}
+/*Content Styles Ends Here*/
+
+
+/*Footer Styling Starts Here*/
+footer#footer ul {
+    background-color: #22313F;
+	width: 100%;
+    min-height: 10px;
+    text-align: center;
+	}
+
+footer#footer ul li {
+	font-size: 20px;
+	color: white;
+	font-family: abel;
+}
+/*Footer Styles Ends Here*/
+
+
+
+/*Media Queries*/
+@media screen and (min-width: 640px) and (max-width: 900px){
+	nav#header ul li a {
+	text-decoration: none;
+	font-family: gadugi;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+	nav#header ul li a {
+	text-decoration: none;
+	font-family: gadugi;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+nav#header ul li p {
+	font-size: 15px;
+	color: white;
+}
+
+nav#navigation ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	border-bottom: 5px solid #34495E;
+	font-size: 20px;
+	font-family: abel;
+	transition-duration: 0.8s;
+}
+
+nav#navigation ul li a:hover {
+	border-bottom: 7px solid white;
+}
+
+}
+
