@@ -17,7 +17,7 @@ $.ajax({
         output += '<a target="_blank" href="' +value.link+ '">' + '<img id="images" alt ="Click Here(Album)"src="'+value.link+'">'+'</a>';
         output += '<hr>';
         $('div ul#img-group div').html(output);
-      if(key > number) return false;
+      if(key > number - 2) return false;
       })
     })
     } 
@@ -45,7 +45,7 @@ $.ajax({
         output += '<a target="_blank" href="' +value.link+ '">' + '<img id="images" alt ="Click Here(Album)"src="'+value.link+'">'+'</a>';
         output += '<hr>';
         $('div ul#img-group div').html(output);
-      if(key > number) return false;
+      if(key > number - 2) return false;
       })
     })
     } 
@@ -73,7 +73,7 @@ $.ajax({
         output += '<a target="_blank" href="' +value.link+ '">' + '<img id="images" alt ="Click Here(Album)"src="'+value.link+'">'+'</a>';
         output += '<hr>';
         $('div ul#img-group div').html(output);
-      if(key > number) return false;
+      if(key > number - 2) return false;
       })
     })
     } 
