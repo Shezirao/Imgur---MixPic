@@ -1,8 +1,11 @@
 # Imgur---MixPic
-Mix Photo Sharing Website - Using Imgur Api !
+Mix Photo Sharing Website "Build With Imgur API"
 
 Imgur - MixPic 
 ----------------------
+Its Just Simple Project That I Build On My Free Time, Not Much Of Coding Involved.
+
+Yet, Its Totally Fun Project....
 
 Is totally build upon 'Imgur Api'
 
