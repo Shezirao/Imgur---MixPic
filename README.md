@@ -13,6 +13,6 @@ All the photos are pulled from 'Imgur.com'
 
 Its a totally public project and everyone is invited to tweak the code and shar & build their own website using this template.
 
-We will be sharing more projects soon.......
+I'll be sharing more cool fun projects soon.......
 
 Have Fun !
